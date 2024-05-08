@@ -8,3 +8,5 @@ Machine learning projikt :)))
 - Meget preprocessing
 
 - Shape = 37900 x 31
+
+- HUSK AT VI PREDICTER **FREMTIDIGE** ANIMES **RATING** :)
