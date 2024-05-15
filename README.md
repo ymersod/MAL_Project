@@ -29,7 +29,7 @@ Machine learning projikt :)))
 - Premiered
   
 - Duration: *Might need to handle outliers* -> **Min_duration**
-- Rating: *delete* could be another target
+- Rating: **OneHotEncode**
 - Score: **THIS IS OUR TARGET**
 - Scored_by: *delete* could be another target
 - Rank: *delete* could be another target
