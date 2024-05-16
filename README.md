@@ -10,7 +10,7 @@ Machine learning projikt :)))
 - Shape = 37900 x 31
 
 - HUSK AT VI PREDICTER **FREMTIDIGE** ANIMES **RATING** :)
-
+.
 # Exploration noter
 - AnimeId: *delete*
 - Title: transform to **TitleLength** & set title as **Index** (Change the 1 duplicate title to something else)
@@ -22,14 +22,14 @@ Machine learning projikt :)))
 - Episodes: :)
 - Status: 1st delete all *Not yet aired* rows - 2nd *delete* feature
 - Airing: *delete*
-
+- ---
   **All belove** used for finding **release_season**
 - Aired_string
 - Aired
 - Premiered
-  
+- ---
 - Duration: *Might need to handle outliers* -> **Min_duration**
-- Rating: *delete* could be another target
+- Rating: **OneHotEncode**
 - Score: **THIS IS OUR TARGET**
 - Scored_by: *delete* could be another target
 - Rank: *delete* could be another target
@@ -39,14 +39,14 @@ Machine learning projikt :)))
 - Background: *delete* to many NaN
 - Broadcast: *delete* to many NaN
 - Related: *delete* could be interesting for later work (not for this project)
-
+- ---
 **Below** concatted to **Is_liscensed**, because of many NaN
 - Liscensor: 
 - Title_english:
-
+- ---
 *x* should be maximised try (10)
 - Studio: Use the biggest studios aka studios with *x*(minimum 3) or more entrees. **OneHotEncoding** rest is just false
 - Genre: **OneHotEncoding**
-
+- ---
 - OpeningTheme: Use the biggest artists aka artists with *x*(minimum 5)
 - EndingTheme: Use the biggest artists aka artists with *x*(minimum 5)
